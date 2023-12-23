@@ -1,4 +1,4 @@
-function result!(robot):Nothing
+function result!(robot)::Nothing
     a = 0
     putmarker!(robot)
     while !isborder(robot, Nord)
